@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="courses.css">
+</head>
+<body>
+    <nav id="topnav">
+        <div class="wrapper">
+            <ul>
+                <li class="topnav"><a href="#" class="topnav">صفحه اصلی</a></li>
+                <li class="topnav"><a href="#" class="topnav">همکاری با ما </a></li>
+                <li class="topnav"><a href="#" class="topnav">تبلیغات</a></li>
+                <li class="topnav"><a href="#" class="topnav">درباره ما</a></li>
+                <li class="topnav"><a href="#" class="topnav">تماس با ما</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="wrapper">
+            <div id="title">
+                <h1>مرجع آموزش آنلاین</h1>
+                <form id="search">
+                    <label class="search lbl">
+                        دوره مورد نظر خود را جستجو کنید
+                    </label><br>
+                    <input type="text" class="search input"><br>
+                    <input type="button" value="جستجو" class="search btn">
+                </form>
+            </div>
+            <div id="submit">
+                <form>
+                    <fieldset>
+                        <legend>وارد شوید</legend>
+                        <label>نام کاربری</label><input type="text"><br>
+                        <label>رمز عبور</label><input type="password"><br>
+                        <input type="checkbox"><label>مرا به خاطر بسپار</label><br>
+                        <input type="button" value="ورود" class="login btn">
+                        <input type="button" value="ثبت نام" class="submit btn">
+                    </fieldset>
+                </form>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+        <aside id="sidebar">
+            <h2>دسته بندی</h2>
+            <ul id="cats" class="menu">
+                   <li class="item">
+                       <a href="#" class="sign">برنامه نویسی</a>
+                       <ul class="submenu">
+                           <li class="subitem"><a href="#">PHP و MySQL</a></li>
+                           <li  class="subitem"><a href="#">C# , C++ , C</a></li>
+                           <li  class="subitem"><a href="#">Perl , Ruby , Python</a></li>
+                           <li  class="subitem">
+                               <a href="#" class="sign">JavaScript</a>
+                               <ul class="submenu">
+                                   <li  class="subitem"><a href="#">jQuery</a></li>
+                                   <li  class="subitem"><a href="#">AngularJS</a></li>
+                                   <li  class="subitem"><a href="#">Node.js</a></li>
+                                   <li  class="subitem"><a href="#">Backbone.js</a></li>
+                               </ul>
+                           </li>
+                           <li  class="subitem"><a href="#">MATLAB , Fortran</a></li>
+                           <li  class="subitem"><a href="#">برنامه نویسی موبایل</a></li>
+                       </ul>
+                   </li>
+                   <li class="item">
+                       <a href="#" class="sign">طراحی</a>
+                       <ul class="submenu">
+                           <li  class="subitem">
+                               <a href="#" class="sign">طراحی وب</a>
+                               <ul class="submenu">
+                                   <li  class="subitem"><a href="#">HTML و CSS</a></li>
+                                   <li  class="subitem"><a href="#">Bootstrap</a></li>
+                                   <li  class="subitem"><a href="#">SASS و Compass</a></li>
+                               </ul>
+                           </li>
+                           <li  class="subitem"><a href="#">طراحی سه بعدی و انیمیشن</a></li>
+                           <li  class="subitem"><a href="#">طراحی دکوراسیون</a></li>
+                           <li  class="subitem"><a href="#">طراحی لوگو و بنر</a></li>
+                       </ul>
+                   </li>
+                   <li class="item">
+                       <a href="#" class="sign">درسی و کنکوری</a>
+                       <ul class="submenu">
+                           <li  class="subitem"><a href="#">دروس دبیرستان</a></li>
+                           <li  class="subitem"><a href="#">دروس  کاردانی</a></li>
+                           <li  class="subitem"><a href="#">دروس  کارشناسی</a></li>
+                           <li  class="subitem"><a href="#">دروس  کارشناسی ارشد</a></li>
+                           <li  class="subitem"><a href="#">دروس  دکتری</a></li>
+                           <li  class="subitem"><a href="#">دروس کنکوری</a></li>
+                       </ul>
+                   </li>
+               </ul>
+       </aside>
+        <section id="latest_courses">
+            <h1>آخرین دوره های آموزشی</h1>
+        <div class="courses">    
+            <article class="post">
+                <a href="#">
+                    <img src="htmlcss.jpg" width="260px" height="150px">
+                    <h3>آموزش طراحی صفحات وب با HTML5 و CSS3</h3>
+                    <span class="postlabel right">۳۰:۲۲:۲۲</span>
+                    <span class="postlabel left">۳۳ ثبت نام</span>
+                        <p>
+                        HTML و CSS دو زبان اصلی برای طراحی صفحات وب هستند که در
+                        این دوره با آخرین نسخه ی آنها یعنی HTML5 و CSS3 آشنا خواهید شد.
+                    </p>
+                </a>
+        </article>
+        <article class="post">
+            <a href="#">
+                <img src="bootstrap.jpg" width="260px" height="150px">
+                <h3>آموزش Bootstrap 3</h3>
+                <span class="postlabel right">۳۰:۲۲:۲۲</span>
+                <span class="postlabel left">۳۳ ثبت نام</span>
+                    <p>
+                        HTML و CSS دو زبان اصلی برای طراحی صفحات وب هستند که در
+                        این دوره با آخرین نسخه ی آنها یعنی HTML5 و CSS3 آشنا خواهید شد.
+                </p>
+            </a>
+    </article>
+    <article class="post">
+        <a href="#">
+            <img src="matlab.jpg" width="260px" height="150px">
+            <h3>اصول برنامه نویسی در MATLAB (از مبتدی تا پیشرفته)</h3>
+            <span class="postlabel right">۳۰:۲۲:۲۲</span>
+            <span class="postlabel left">۳۳ ثبت نام</span>
+                <p>
+                    HTML و CSS دو زبان اصلی برای طراحی صفحات وب هستند که در
+                    این دوره با آخرین نسخه ی آنها یعنی HTML5 و CSS3 آشنا خواهید شد.
+            </p>
+        </a>
+</article>
+<article class="post">
+    <a href="#">
+        <img src="jquery.png" width="260px" height="150px">
+        <h3>آموزش کامل jQuery و jQuery UI</h3>
+        <span class="postlabel right">۳۰:۲۲:۲۲</span>
+        <span class="postlabel left">۳۳ ثبت نام</span>
+            <p>
+                HTML و CSS دو زبان اصلی برای طراحی صفحات وب هستند که در
+                این دوره با آخرین نسخه ی آنها یعنی HTML5 و CSS3 آشنا خواهید شد.
+        </p>
+    </a>
+</article>
+<article class="post">
+    <a href="#">
+        <img src="phpmysql.jpg" width="260px" height="150px">
+        <h3>آموزش برنامه نویسی با PHP و MySQL</h3>
+        <span class="postlabel right">۳۰:۲۲:۲۲</span>
+        <span class="postlabel left">۳۳ ثبت نام</span>
+            <p>
+                HTML و CSS دو زبان اصلی برای طراحی صفحات وب هستند که در
+                این دوره با آخرین نسخه ی آنها یعنی HTML5 و CSS3 آشنا خواهید شد.
+        </p>
+    </a>
+</article>
+</div>
+        </section>
+        <section id="most_popular_courses">
+            <h1> پرطرفدارترین دوره های آموزشی</h1>
+            <div class="courses">
+            <article class="post">
+                <a href="#">
+                    <img src="htmlcss.jpg" width="260" height="150" />
+                    <h3>آموزش طراحی صفحات وب با HTML5 و CSS3</h3>
+                    <span class="postlabel right">۳۰:۲۲:۲۲</span>
+                    <span class="postlabel left">۳۳ ثبت نام</span>
+                        <p>
+                        HTML و CSS دو زبان اصلی برای طراحی صفحات وب هستند که در
+                        این دوره با آخرین نسخه ی آنها یعنی HTML5 و CSS3 آشنا خواهید شد.
+                    </p>
+                </a>
+            </article>
+            <article class="post">
+                <a href="#">
+                    <img src="bootstrap.jpg" width="260" height="150" />
+                    <h3>آموزش Bootstrap 3</h3>
+                    <span class="postlabel right">۳۰:۲۲:۲۲</span>
+                    <span class="postlabel left">۳۳ ثبت نام</span>
+                    <p>
+                        HTML و CSS دو زبان اصلی برای طراحی صفحات وب هستند که در
+                        این دوره با آخرین نسخه ی آنها یعنی HTML5 و CSS3 آشنا خواهید شد.
+                    </p>
+                </a>
+            </article>
+            <article class="post">
+                <a href="#">
+                    <img src="matlab.jpg" width="260" height="150" />
+                    <h3>اصول برنامه نویسی در MATLAB (از مبتدی تا پیشرفته)</h3>
+                    <span class="postlabel right">۳۰:۲۲:۲۲</span>
+                    <span class="postlabel left">۳۳ ثبت نام</span>
+                    <p>
+                        HTML و CSS دو زبان اصلی برای طراحی صفحات وب هستند که در
+                        این دوره با آخرین نسخه ی آنها یعنی HTML5 و CSS3 آشنا خواهید شد.
+                    </p>
+                </a>
+            </article>
+            <article class="post">
+                <a href="#">
+                    <img src="jquery.png" width="260" height="150" />
+                    <h3>آموزش کامل jQuery و jQuery UI</h3>
+                    <span class="postlabel right">۳۰:۲۲:۲۲</span>
+                    <span class="postlabel left">۳۳ ثبت نام</span>
+                    <p>
+                        HTML و CSS دو زبان اصلی برای طراحی صفحات وب هستند که در
+                        این دوره با آخرین نسخه ی آنها یعنی HTML5 و CSS3 آشنا خواهید شد.
+                    </p>
+                </a>
+            </article>
+            <article class="post">
+                <a href="#">
+                    <img src="phpmysql.jpg" width="260" height="150" />
+                    <h3>آموزش برنامه نویسی با PHP و MySQL</h3>
+                    <span class="postlabel right">۳۰:۲۲:۲۲</span>
+                    <span class="postlabel left">۳۳ ثبت نام</span>
+                    <p>
+                        HTML و CSS دو زبان اصلی برای طراحی صفحات وب هستند که در
+                        این دوره با آخرین نسخه ی آنها یعنی HTML5 و CSS3 آشنا خواهید شد.
+                    </p>
+                </a>
+            </article>
+        </div>
+        
+        </div>
+        </section>
+        <div class="clear"></div>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div id="sitemap" class="right">
+                <h1>نقشه سایت</h1>
+                <ul>
+                    <li>صفحه اصلی</li>
+                    <li>همکاری با ما</li>
+                    <li> تبلیغات</li>
+                    <li>درباره ما</li>
+                    <li>تماس با ما</li>
+                </ul>
+            </div>
+            <div id="newsletter" class="left">
+                <h1>عضویت در خبرنامه</h1>
+                <form>
+                    <label>ایمیل خود را وارد کنید</label><br>
+                    <input type="email"><br>
+                    <input type="button" value="عضویت">
+                </form>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="copyright">
+            <p>
+                کلیه حقوق مادی و معنوی این سایت متعلق به <b>مرجع آموزش آنلاین</b> است.
+            </p>
+        </div>
+        
+    </footer>
+</body>
+</html>
